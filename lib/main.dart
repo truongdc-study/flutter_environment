@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
         title: const Text('Environment'),
       ),
       body: Center(
-        child: Text('API: ${Config.apiBaseUrl}/ Debug: ${Config.debug}'),
+        child: Text('API: ${Config.apiBaseUrl}\nDebug: ${Config.debug} \nFlavor: ${Config.flavorSrt}'),
       ),
     );
   }
