@@ -10,8 +10,8 @@ class Config {
 
   static Future load() async {
     try {
-      const String flavor =
-          String.fromEnvironment('FLAVOR', defaultValue: 'dev');
+
+      String flavor = await platformChannel.invokeMethod("flavor_method");
       String configString = '';
       if (flavor == 'dev') {
         configString = await rootBundle.loadString('.env_development');
@@ -26,4 +26,6 @@ class Config {
       debugPrint(e.toString());
     }
   }
+
+  static const platformChannel = MethodChannel("environment_flutter_channel");
 }
