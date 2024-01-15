@@ -1,1 +1,3 @@
 #include "Flutter/Generated.xcconfig"
+DISPLAY_NAME=ENV DEV
+FLUTTER_FLAVOR=dev
