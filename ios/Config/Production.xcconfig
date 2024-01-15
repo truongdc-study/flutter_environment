@@ -1,3 +1,4 @@
 #include "Flutter/Generated.xcconfig"
 DISPLAY_NAME=ENV PROD
 FLUTTER_FLAVOR=prod
+PRODUCT_BUNDLE_IDENTIFIER=com.truongdc21.environmentFlutter.prod
