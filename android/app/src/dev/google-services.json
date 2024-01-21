@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "212198193719",
+    "project_id": "environment-dev-6e4ba",
+    "storage_bucket": "environment-dev-6e4ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212198193719:android:378a6d04d977eab8931db2",
+        "android_client_info": {
+          "package_name": "com.truongdc21.environment_flutter.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBXEC0D9ghwkCb-TjInYCLtrxaiiv5td4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
