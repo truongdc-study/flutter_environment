@@ -1,4 +1,7 @@
 #include "Flutter/Generated.xcconfig"
+#include "Pods/Target Support Files/Pods-Runner/Pods-Runner.release-prod.xcconfig"
+#include "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug-prod.xcconfig"
 DISPLAY_NAME=ENV PROD
 FLUTTER_FLAVOR=prod
 PRODUCT_BUNDLE_IDENTIFIER=com.truongdc21.environmentFlutter.prod
+FIREBASE_DIR=$PROJECT_DIR/$PROJECT_NAME/Resources/Firebase/prod
