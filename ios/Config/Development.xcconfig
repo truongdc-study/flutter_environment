@@ -1,4 +1,6 @@
 #include "Flutter/Generated.xcconfig"
+#include "Pods/Target Support Files/Pods-Runner/Pods-Runner.release-dev.xcconfig"
+#include "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug-dev.xcconfig"
 DISPLAY_NAME=ENV DEV
 FLUTTER_FLAVOR=dev
 PRODUCT_BUNDLE_IDENTIFIER=com.truongdc21.environmentFlutter.dev
